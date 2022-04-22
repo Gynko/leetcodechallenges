@@ -13,7 +13,7 @@ My leetcode challenges!
 
 # 1. Purpose
 
-This website allows me to showcase to a potential recruiter my skills when it comes to algorithms and Javascript.
+This website allows me to showcase to a potential recruiter my skills when it comes to solving problems.
 
 # 2. Features / content
 
