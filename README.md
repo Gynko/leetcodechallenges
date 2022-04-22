@@ -1,6 +1,4 @@
-# Leetcode <!-- omit in toc -->
-
-My leetcode challenges!
+# Leetcode Challenges<!-- omit in toc -->
 
 # Table <!-- omit in toc -->
 
