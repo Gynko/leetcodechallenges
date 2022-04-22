@@ -21,4 +21,4 @@ To serve this purpose, the recruitor should be able to filter the challenges by 
 
 ## 3.1. Mobile
 
-![Mobile view](http://url/to/img.png](https://i.ibb.co/zs3h613/mobile-view.png)
+![Mobile view](https://i.ibb.co/zs3h613/mobile-view.png)
