@@ -1,0 +1,11 @@
+:root {
+  /* Headers */
+  --header-background-color: #303030;
+
+  /* Header Mobile*/
+  --height-header-mobile: 4.5rem;
+  --height-icon: 3rem;
+
+  /* Body */
+  --body-color: #e0d0c1;
+}

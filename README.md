@@ -40,7 +40,7 @@ These mockups were made in Figma with a 3 hours deadline.
 # 4. Libraries
 
 1. Styled components for styling
-2. prismjs to display code
+2. Prismjs to display code
 
 # 5. Process
 
