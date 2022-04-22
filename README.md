@@ -11,7 +11,7 @@
 
 # 1. Purpose
 
-This website allows me to showcase to a potential recruiter my skills when it comes to solving problems.
+This website allows me to showcase to a potential recruiter my skills when it comes to solving problems from the Leetcode website.
 
 # 2. Features / content
 
