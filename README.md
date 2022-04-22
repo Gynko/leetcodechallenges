@@ -9,6 +9,7 @@ My leetcode challenges!
 - [3. Mockups Figma](#3-mockups-figma)
   - [3.1. Mobile](#31-mobile)
   - [Desktop](#desktop)
+- [Libraries](#libraries)
 
 # 1. Purpose
 
@@ -31,3 +32,8 @@ To serve this purpose, the recruitor will want to be able to:
 ## Desktop
 
 ![Desktop view](https://i.ibb.co/jfFk7JB/desktop.png)
+
+# Libraries
+
+1. Styled components for styling
+2. prismjs to display code
