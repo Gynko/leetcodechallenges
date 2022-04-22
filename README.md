@@ -25,4 +25,4 @@ To serve this purpose, the recruitor will want to be able to:
 
 ## 3.1. Mobile
 
-![Mobile view](https://i.ibb.co/zs3h613/mobile-view.png)
+![Mobile view](https://i.ibb.co/hdkWsf0/mobile-view.png)
