@@ -19,7 +19,7 @@ To serve this purpose, the recruitor will want to be able to:
 
 1. Peer into my thinking / problem solving process: challenges should contain a section displaying this
 2. The recruitor should get a sense of the different types of problems I have solved: there should be a filter by theme
-3. Create some sort of a button that allows a recruitor to send me a challenge (like email me or something) that they think would be great for me to try to solve
+3. Create some sort of a button that allows a recruitor to send me a challenge (like email me or something) that they think would be great for me to try to solve. Is a nice way to get in touch!
 
 # 3. Mockups Figma
 
