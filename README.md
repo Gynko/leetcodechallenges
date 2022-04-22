@@ -5,7 +5,7 @@ My leetcode challenges!
 # Table <!-- omit in toc -->
 
 - [1. Purpose](#1-purpose)
-- [2. Features](#2-features)
+- [2. Features / content](#2-features--content)
 - [3. Mockup](#3-mockup)
   - [3.1. Mobile](#31-mobile)
 
@@ -13,9 +13,13 @@ My leetcode challenges!
 
 This website allows me to showcase to a potential recruiter my skills when it comes to algorithms and Javascript, as well as showing my process when solving them.
 
-# 2. Features
+# 2. Features / content
 
-To serve this purpose, the recruitor should be able to filter the challenges by difficulty - as they are on the Leetcode website - and by theme with keywords.
+To serve this purpose, the recruitor will want to be able to:
+
+1. Peer into my thinking / problem solving process: challenges should contain a section displaying this
+2. The recruitor should get a sense of the different types of problems I have solved: there should be a filter by theme
+3. Create some sort of a button that allows a recruitor to send me a challenge that they think would be great for me to try to solve
 
 # 3. Mockup
 
