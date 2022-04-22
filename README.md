@@ -1,34 +1,24 @@
-# Leetcode
+# Leetcode <!-- omit in toc -->
 
 My leetcode challenges!
 
-# 1. Two sum
+# Table <!-- omit in toc -->
 
-https://leetcode.com/problems/two-sum/
+- [1. Purpose](#1-purpose)
+- [2. Features](#2-features)
+- [3. Mockup](#3-mockup)
+  - [3.1. Mobile](#31-mobile)
 
-Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+# 1. Purpose
 
-You may assume that each input would have exactly one solution, and you may not use the same element twice.
+This website allows me to showcase to a potential recruiter my skills when it comes to algorithms and Javascript, as well as showing my process when solving them.
 
-You can return the answer in any order.
+# 2. Features
 
-So:
+To serve this purpose, the recruitor should be able to filter the challenges by difficulty - as they are on the Leetcode website - and by theme with keywords.
 
-1. If input: nums = [2,7,11,15], target = 9
-2. Then we need to output: [0,1] => 7+2= 9
+# 3. Mockup
 
-## Solution 1:
+## 3.1. Mobile
 
-```javascript
-var twoSum = function (nums, target) {
-  var increment = 0;
-  for (let i = 0; i < nums.length - 1; i++) {
-    for (let j = 1 + increment; j < nums.length; j++) {
-      if (nums[i] + nums[j] === target) return [i, j];
-    }
-    increment++;
-  }
-};
-```
-
-Problem: Big O(n^2). Figuring a Big O(n) by adding space complexity?
+![Mobile view](<[http://url/to/img.png](https://i.ibb.co/zs3h613/mobile-view.png)>)
