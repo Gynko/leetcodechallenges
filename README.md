@@ -8,8 +8,8 @@ My leetcode challenges!
 - [2. Features / content](#2-features--content)
 - [3. Mockups Figma](#3-mockups-figma)
   - [3.1. Mobile](#31-mobile)
-  - [Desktop](#desktop)
-- [Libraries](#libraries)
+  - [3.2. Desktop](#32-desktop)
+- [4. Libraries](#4-libraries)
 
 # 1. Purpose
 
@@ -29,11 +29,11 @@ To serve this purpose, the recruitor will want to be able to:
 
 ![Mobile view](https://i.ibb.co/hdkWsf0/mobile-view.png)
 
-## Desktop
+## 3.2. Desktop
 
 ![Desktop view](https://i.ibb.co/jfFk7JB/desktop.png)
 
-# Libraries
+# 4. Libraries
 
 1. Styled components for styling
 2. prismjs to display code
