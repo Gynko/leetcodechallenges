@@ -58,4 +58,4 @@ There is a need to display the challenges based on their difficulty and topics. 
 
 1. Conditional rendering with simple state management: clicking on a topic would set the state with `useState` , which would only render the right jsx components
 
-2. Conditional rendering with simple state managemen and routing `@react-router-dom`: somewhat similar to conditional rendering, but using the react router, which update the url adress (and allow the recruiter to send a direct link to the challenge to someone else for example). Problem: might not have enough time to figure out this one.
+2. Conditional rendering with simple state management and routing `@react-router-dom`: somewhat similar to conditional rendering, but using the react router, which update the url adress (and allow the recruiter to send a direct link to the challenge to someone else for example). Problem: might not have enough time to figure out this one.
