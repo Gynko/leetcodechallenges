@@ -8,6 +8,10 @@
   - [3.1. Mobile](#31-mobile)
   - [3.2. Desktop](#32-desktop)
 - [4. Libraries](#4-libraries)
+- [5. Process](#5-process)
+  - [5.1. Architecture](#51-architecture)
+    - [5.1.1. Target devices](#511-target-devices)
+    - [5.1.2. The challenges](#512-the-challenges)
 
 # 1. Purpose
 
@@ -37,3 +41,19 @@ These mockups were made in Figma with a 3 hours deadline.
 
 1. Styled components for styling
 2. prismjs to display code
+
+# 5. Process
+
+## 5.1. Architecture
+
+First, I am trying to figure out what architecture is going to be the most appropriate, given the features and content shown on the mockups.
+
+### 5.1.1. Target devices
+
+There are 2 main target devices with different headers and layout: mobile and desktop
+
+### 5.1.2. The challenges
+
+There is a need to display the challenges based on their difficulty and topics. There are various ways to achieve this.
+
+1. Conditional rendering: clicking on a topic would set the state of a `useState` value, which would
