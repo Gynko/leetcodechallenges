@@ -1,7 +1,14 @@
 import IconMenu from "../../assets/icons/IconMenu";
 import { IconContainer } from "../../assets/icons/IconsContainer.styles";
 import LogoLcChallenges from "../LogoLcChallenges/LogoLcChallenges.component";
-import { Container, Header, Nav, Ul } from "./headerMobile.styles.js";
+import {
+  Container,
+  Header,
+  Nav,
+  Ul,
+  LiIconMenu,
+  LiLogo,
+} from "./headerMobile.styles.js";
 
 function HeaderMobile() {
   return (
@@ -9,16 +16,14 @@ function HeaderMobile() {
       <Header>
         <Nav>
           <Ul>
-            <li>
-              <IconContainer height="2.8rem">
+            <LiIconMenu>
+              <IconContainer height="2.2rem" marginleft="0.6rem">
                 <IconMenu />
               </IconContainer>
-            </li>
-          </Ul>
-          <Ul>
-            <li>
+            </LiIconMenu>
+            <LiLogo>
               <LogoLcChallenges />
-            </li>
+            </LiLogo>
           </Ul>
         </Nav>
       </Header>

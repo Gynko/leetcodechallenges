@@ -1,4 +1,5 @@
 import { useState } from "react";
+import HeaderDesktop from "../components/headerDesktop/headerDesktop.component";
 import HeaderMobile from "../components/headermobile/headerMobile.component";
 import TwoSum from "./Challenges/TwoSum/TwoSum.page";
 
@@ -8,6 +9,7 @@ function Home() {
   return (
     <div>
       <HeaderMobile />
+      <HeaderDesktop />
     </div>
   );
 }

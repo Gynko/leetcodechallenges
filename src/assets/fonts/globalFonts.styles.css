@@ -4,3 +4,19 @@
     url("../../assets/fonts/Bungee-Regular.woff2") format("woff2");
   font-display: swap;
 }
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../../assets/fonts/OpenSans-Regular.woff") format("woff"),
+    url("../../assets/fonts/OpenSans-Regular.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Operator Mono Light";
+  src: url("../../assets/fonts/OperatorMono-Light.woff2") format("woff2"),
+    url("../../assets/fonts/OperatorMono-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}

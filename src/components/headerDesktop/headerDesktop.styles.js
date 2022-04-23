@@ -4,12 +4,12 @@ export const Container = styled.div`
   position: fixed;
   background-color: var(--header-background-color);
   width: 100vw;
-  height: var(--height-header-mobile);
+  height: var(--height-header-desktop);
   @media (min-width: 0em) {
-    display: flex;
+    display: none;
   }
   @media (min-width: 40em) {
-    display: none;
+    display: flex;
   }
 `;
 
@@ -26,7 +26,7 @@ export const Nav = styled.nav`
 `;
 
 export const Ul = styled.ul`
-  width: 100%;
+  width: 38rem;
   height: 100%;
   display: flex;
   flex-direction: row;
@@ -37,11 +37,4 @@ export const Ul = styled.ul`
   max-width: var(--pages-mobile-elements-width);
 `;
 
-export const LiIconMenu = styled.li`
-  position: fixed;
-`;
-
-export const LiLogo = styled.li`
-  position: fixed;
-  left: Calc(50% - 2.8rem);
-`;
+export const LiLogo = styled.li``;
