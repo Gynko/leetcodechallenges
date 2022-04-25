@@ -1,10 +1,14 @@
-# Challenges
+# Challenges <!-- omit in toc -->
 
-# Table of content
+# Table of content <!-- omit in toc -->
 
-## Two sum
+- [1. Two sum](#1-two-sum)
+  - [1.1. Problem](#11-problem)
+  - [1.2. Solution](#12-solution)
 
-### Problem
+## 1. Two sum
+
+### 1.1. Problem
 
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 
@@ -18,7 +22,7 @@ Input: nums = [2,7,11,15], target = 9
 Output: [0,1]
 Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 
-### Solution
+### 1.2. Solution
 
 First solution, big O(n^2)
 
