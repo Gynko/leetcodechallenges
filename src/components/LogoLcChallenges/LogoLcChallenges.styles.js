@@ -13,7 +13,7 @@ export const TextAbove = styled.p`
     font-size: 1rem;
   }
   @media (min-width: 40em) {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
   }
 `;
 
@@ -23,9 +23,9 @@ export const TextUnder = styled.p`
   font-family: "Bungee";
   line-height: 1.2rem;
   @media (min-width: 0em) {
-    font-size: 1rem;
+    font-size: 1.25rem;
   }
   @media (min-width: 40em) {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 `;

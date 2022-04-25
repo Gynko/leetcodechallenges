@@ -1,4 +1,4 @@
-# Leetcode Challenges<!-- omit in toc -->
+# Frontend Challenges<!-- omit in toc -->
 
 # Table <!-- omit in toc -->
 
@@ -15,7 +15,12 @@
 
 # 1. Purpose
 
-This website allows me to showcase to a potential recruiter my skills when it comes to solving problems from the Leetcode website.
+This website allows me to showcase to a potential recruiter my skills when it comes to solving Frontend challenges.
+
+Currently 2 categories:
+
+1. Leetcode challenges
+2. Components such as dropdowns, forms, menus, layout
 
 # 2. Features / content
 

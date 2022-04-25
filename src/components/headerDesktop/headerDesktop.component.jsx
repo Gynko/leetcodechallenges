@@ -15,10 +15,10 @@ function HeaderDesktop() {
               <Button label="Leetcode" />
             </li>
             <li>
-              <Button label="React" />
-            </li>{" "}
+              <Button label="React Components" />
+            </li>
             <li>
-              <Button label="Hard" />
+              <Button label="Challenge Me!" />
             </li>
           </Ul>
         </Nav>

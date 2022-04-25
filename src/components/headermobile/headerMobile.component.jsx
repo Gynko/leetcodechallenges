@@ -9,8 +9,11 @@ import {
   LiIconMenu,
   LiLogo,
 } from "./headerMobile.styles.js";
+import { useState } from "react";
 
 function HeaderMobile() {
+  const [dropdown, SetDropdown] = useState(false);
+
   return (
     <Container>
       <Header>
