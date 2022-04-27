@@ -8,8 +8,10 @@
 - [2. Longest substring without repeating characters](#2-longest-substring-without-repeating-characters)
   - [2.1. Problem](#21-problem)
   - [2.2. Solution](#22-solution)
-- [ZigZag conversion](#zigzag-conversion)
-  - [Problem](#problem)
+- [3. ZigZag conversion](#3-zigzag-conversion)
+  - [3.1. Problem](#31-problem)
+  - [3.2. Process](#32-process)
+  - [3.3. Solution](#33-solution)
 
 ## 1. Two sum
 
@@ -102,19 +104,47 @@ var lengthOfLongestSubstring = function (s) {
 };
 ```
 
-## ZigZag conversion
+## 3. ZigZag conversion
 
-### Problem
+### 3.1. Problem
 
 https://leetcode.com/problems/zigzag-conversion/
 
-The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
+### 3.2. Process
 
-1. P A H N
-2. A P L S I I G
-3. Y I R
-   And then read line by line: "PAHNAPLSIIGYIR"
+Doing it by hand to try to understand the pattern
 
-Write the code that will take a string and make this conversion given a number of rows:
+4. Create one array per row
+5. Add one element to each array, one after the other until they all got filled
+6. Then add one element to each array, but starting in reverse from the penultimate array.
+7. Iterate until no more elements to fill
+8. Join all arrays
 
-string convert(string s, int numRows);
+### 3.3. Solution
+
+```javascript
+var convert = function (s, numRows) {
+  let array = Array(numRows).fill("");
+  let counter = 0;
+  let reversed = 0;
+
+  for (let i = 0; i < s.length; i++) {
+    if (numRows === 1) {
+      array[i] = s[i];
+    }
+    if (numRows !== 1) {
+      if (counter < numRows) {
+        array[counter] = array[counter] + s[i];
+        counter++;
+      }
+      if (counter === numRows - 1) {
+        array.reverse();
+        reversed++;
+        counter = 0;
+      }
+    }
+  }
+  if (reversed % 2 === 1) array.reverse();
+  return array.join("");
+};
+```
