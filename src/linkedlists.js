@@ -1,5 +1,3 @@
-import { withTheme } from "styled-components";
-
 class Node {
   constructor(value) {
     this.node = {
@@ -8,14 +6,12 @@ class Node {
     };
   }
 }
-
 export class LinkedList {
   constructor(value) {
     this.head = new Node(value);
     this.tail = this.head;
     this.length = 1;
   }
-
   append(value) {
     var newNode = new Node(value);
     this.tail.next = newNode;
@@ -51,6 +47,17 @@ export class LinkedList {
     previousNode.next = newNode;
     this.length++;
   }
+  remove(index) {
+    var iterate = 0;
+    var previousNode = this.head;
+    while (iterate !== index - 1) {
+      previousNode = previousNode.next;
+      iterate++;
+    }
+    var restOfNodes = previousNode.next.next;
+    previousNode.next = restOfNodes;
+    this.length--;
+  }
   display() {
     var iterate = 0;
     var array = [];
@@ -62,5 +69,15 @@ export class LinkedList {
     }
     console.log(array);
     return array;
+  }
+  get(index) {
+    var iterate = 0;
+    var locateNode = this.head;
+    while (iterate < index) {
+      locateNode = locateNode.next;
+      iterate++;
+    }
+    if (locateNode != null) return locateNode.node.value;
+    else return undefined;
   }
 }

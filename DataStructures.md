@@ -62,7 +62,7 @@ Computer also have caching possibilities that makes reading from sequential memo
 
 ### 3.5. Linked lists in JS
 
-They don't exist natively in JS.
+They don't exist natively in JS. A possible implementation here:
 
 ```javascript
 class Node {
@@ -80,7 +80,6 @@ export class LinkedList {
     this.tail = this.head;
     this.length = 1;
   }
-
   append(value) {
     var newNode = new Node(value);
     this.tail.next = newNode;
@@ -115,6 +114,17 @@ export class LinkedList {
     newNode.next = restOfNodes;
     previousNode.next = newNode;
     this.length++;
+  }
+  remove(index) {
+    var iterate = 0;
+    var previousNode = this.head;
+    while (iterate !== index - 1) {
+      previousNode = previousNode.next;
+      iterate++;
+    }
+    var restOfNodes = previousNode.next.next;
+    previousNode.next = restOfNodes;
+    this.length--;
   }
   display() {
     var iterate = 0;

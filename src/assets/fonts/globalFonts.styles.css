@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Bungee";
-  src: url("../../assets/fonts/Bungee-Regular.woff") format("woff"),
-    url("../../assets/fonts/Bungee-Regular.woff2") format("woff2");
+  src: url("./Bungee-Regular.woff") format("woff"),
+    url("./Bungee-Regular.woff2") format("woff2");
   font-display: swap;
 }
 

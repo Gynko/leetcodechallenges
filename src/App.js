@@ -3,17 +3,34 @@ import "./globalstyles/globalStyles.styles.css";
 import "./globalstyles/globalCssVariables.styles.css";
 import "./assets/fonts/globalFonts.styles.css";
 
-import { LinkedList } from "./linkedlists";
-//1 10 16 33
-
 function App() {
-  const myLinkedList = new LinkedList(10);
-  myLinkedList.append(16);
-  myLinkedList.append(33);
-  myLinkedList.prepend(1);
-  myLinkedList.insert(42, 3);
-  myLinkedList.display();
+  var lengthOfLongestSubstring = function (s) {
+    let iterator = 0;
+    let strLength = 0;
+    let maxLength = 0;
+    let storedUniqueChars = {};
+    let arr = s.split("");
+    while (iterator < arr.length) {
+      if (storedUniqueChars.hasOwnProperty(arr[iterator])) {
+        let foundIndex = storedUniqueChars[arr[iterator]];
+        storedUniqueChars = {};
+        storedUniqueChars[arr[foundIndex + 1]] = foundIndex + 1;
+        strLength = 1;
+        iterator = foundIndex + 2;
+      }
+      // Did not see that letter
+      else {
+        storedUniqueChars[arr[iterator]] = iterator;
+        strLength++;
+        if (strLength >= maxLength) maxLength = strLength;
+        iterator++;
+      }
+    }
+    return maxLength;
+  };
 
+  const test = "dvdf";
+  lengthOfLongestSubstring(test);
   return <Home />;
 }
 
