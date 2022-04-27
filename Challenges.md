@@ -112,13 +112,15 @@ https://leetcode.com/problems/zigzag-conversion/
 
 ### 3.2. Process
 
-Doing it by hand to try to understand the pattern
+Disclaimer: At some point I realized I did not need to have one array per row, just have one element per row.
 
-4. Create one array per row
-5. Add one element to each array, one after the other until they all got filled
-6. Then add one element to each array, but starting in reverse from the penultimate array.
-7. Iterate until no more elements to fill
-8. Join all arrays
+Doing the problem algorithmically to try to understand the pattern
+
+1. Create one array per row
+2. Add one element to each array, one after the other until they all got filled
+3. Then add one element to each array, but starting in reverse from the penultimate array.
+4. Iterate until no more elements to fill
+5. Join all arrays
 
 ### 3.3. Solution
 
