@@ -5,10 +5,9 @@
 - [1. Two sum](#1-two-sum)
   - [1.1. Problem](#11-problem)
   - [1.2. Solution](#12-solution)
-- [2. Add Two numbers](#2-add-two-numbers)
+- [2. Longest substring without repeating characters](#2-longest-substring-without-repeating-characters)
   - [2.1. Problem](#21-problem)
-  - [2.2. Solving process](#22-solving-process)
-  - [Solution](#solution)
+  - [2.2. Solution](#22-solution)
 
 ## 1. Two sum
 
@@ -62,41 +61,15 @@ var twoSum = function (nums, target) {
 };
 ```
 
-## 2. Add Two numbers
+## 2. Longest substring without repeating characters
 
 ### 2.1. Problem
 
-https://leetcode.com/problems/add-two-numbers/
+https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
-You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.
+Given a string s, find the length of the longest substring without repeating characters.
 
-You may assume the two numbers do not contain any leading zero, except the number 0 itself.
-
-### 2.2. Solving process
-
-First, I read again about linked lists, how they work in JS
-
-The first method I am thinking of is to traverse both linked lists and make them numbers, add them, and then transforming this number into a linked list.
-
-Example:
-LL1 = 8 => 5
-LL2 = 9 => 5
-58 + 59 = 107
-
-Expected result:
-LL3 = 7 => 0 => 1
-
-The second method I can think of is to:
-
-1. get the first digits of each LL (8 and 9 in example, which are known as the head elements in a LL)
-2. add them
-3. if the sum is < 10, create the result LL with the resulting digit
-4. if the sum is >= 10, append the last digit to the result LL and memorize the rest 1 (in our example 8 + 9 = 17, so we append 7 and memorize the rest 1)
-5. iterate with second digits of each LL and add the rest 1 (here 5 + 5 + 1 = 11, add 1 to the result LL, memorize rest 1).
-6. We have to continue as long as one of the LL to add contains a digit OR as long as there is a rest
-   Switch to coding
-
-### Solution
+### 2.2. Solution
 
 ```javascript
 var lengthOfLongestSubstring = function (s) {
