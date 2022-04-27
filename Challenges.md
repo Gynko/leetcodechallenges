@@ -108,6 +108,8 @@ var lengthOfLongestSubstring = function (s) {
 
 ### 3.1. Problem
 
+difficulty: medium
+
 https://leetcode.com/problems/zigzag-conversion/
 
 ### 3.2. Process
