@@ -8,10 +8,14 @@
 - [2. Longest substring without repeating characters](#2-longest-substring-without-repeating-characters)
   - [2.1. Problem](#21-problem)
   - [2.2. Solution](#22-solution)
+- [ZigZag conversion](#zigzag-conversion)
+  - [Problem](#problem)
 
 ## 1. Two sum
 
 ### 1.1. Problem
+
+difficulty: easy
 
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 
@@ -65,6 +69,8 @@ var twoSum = function (nums, target) {
 
 ### 2.1. Problem
 
+difficulty: medium
+
 https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
 Given a string s, find the length of the longest substring without repeating characters.
@@ -95,3 +101,20 @@ var lengthOfLongestSubstring = function (s) {
   return maxLength;
 };
 ```
+
+## ZigZag conversion
+
+### Problem
+
+https://leetcode.com/problems/zigzag-conversion/
+
+The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
+
+P A H N
+A P L S I I G
+Y I R
+And then read line by line: "PAHNAPLSIIGYIR"
+
+Write the code that will take a string and make this conversion given a number of rows:
+
+string convert(string s, int numRows);
